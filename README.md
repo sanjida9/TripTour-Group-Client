@@ -1,19 +1,21 @@
-# Watchful Wrist
+# TripTour
 
 ## Live Website Link [Click here](https://triptour-c113c.web.app/)
 
 ## Description
 
-## We guarantee that all of our watches for sale online are authentic. Every watch is guaranteed to be from one of our 100% authorized dealers or wholesalers. Each brand new watch comes with our in-house warranty. We know that finding the right watch takes time.
+## We guarantee that all of our packages, hotel and ticket boooking for sale online are authentic. Every service is guaranteed to be from one of our 100% authorized dealers . Each company comes with our expectation. We know that finding the right and good service takes time.
 
-### It's a website which is about selling different kind of watches
+### It's a website which gives the service about hotel ,package and ticket booking
 
-### Users can choose their watches from here
+### Users can choose their desired service from here
 
-### They can book the watches
+### They can book packages
 
-### For placing order they need to register and then login
+### They can book hotels
 
-### For placing order they need to register and then login
+### They can book tickets
+
+### For booking order they need to register and then login
 
 ### admin can manage the site and they can see all the orders from customer
