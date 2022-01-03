@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div>
       <NavigationBar></NavigationBar>
-      <h1>About Us</h1>
+      <h1>About</h1>
       <Footer></Footer>
     </div>
   );
