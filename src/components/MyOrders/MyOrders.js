@@ -55,7 +55,7 @@ const MyOrders = () => {
                 <td>
                   <button
                     onClick={() => handleDeleteOrder(order._id)}
-                    className="btn btn-danger"
+                    className="btn btn-danger button"
                   >
                     Delete
                   </button>
