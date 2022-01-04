@@ -6,6 +6,7 @@ import AdminRoute from "../components/AdminRoute/AdminRoute";
 import MakeAdmin from "../components/MakeAdmin/MakeAdmin";
 import ManageAllOrders from "../components/ManageAllOrders/ManageAllOrders";
 import ManageBusOrder from "../components/ManageBusOrder/ManageBusOrder";
+import ManageCarOrder from "../components/ManageCarOrder/ManageCarOrder";
 import ManageFlightOrder from "../components/ManageFlightOrder/ManageFlightOrder";
 import ManageProducts from "../components/ManageProducts/ManageProducts";
 import MyOrders from "../components/MyOrders/MyOrders";
@@ -130,18 +131,27 @@ const Dashboard = () => {
                       className="my-1 flex items-center text-sm font-semibold text-white hover:bg-gray-100 hover:text-white hover:bg-secondary-dark transition duration-200 p-3 rounded-md"
                       activeClassName="bg-secondary-dark text-white"
                     >
-                      Manage Ticket Booking
+                      Manage Flight Booking
                     </NavLink>
                   </li>
-                  {/* <li>
+                  <li>
+                    <NavLink
+                      to={`${url}/manageCar`}
+                      className="my-1 flex items-center text-sm font-semibold text-white hover:bg-gray-100 hover:text-white hover:bg-secondary-dark transition duration-200 p-3 rounded-md"
+                      activeClassName="bg-secondary-dark text-white"
+                    >
+                      Manage Car Booking
+                    </NavLink>
+                  </li>
+                  <li>
                     <NavLink
                       to={`${url}/manageBus`}
                       className="my-1 flex items-center text-sm font-semibold text-white hover:bg-gray-100 hover:text-white hover:bg-secondary-dark transition duration-200 p-3 rounded-md"
                       activeClassName="bg-secondary-dark text-white"
                     >
-                      Manage Bus
+                      Manage Bus Booking
                     </NavLink>
-                  </li> */}
+                  </li>
                   <li>
                     <NavLink
                       to={`${url}/newWatch`}
@@ -209,6 +219,9 @@ const Dashboard = () => {
             </AdminRoute>
             <AdminRoute path={`${path}/manageBus`}>
               <ManageBusOrder></ManageBusOrder>
+            </AdminRoute>
+            <AdminRoute path={`${path}/manageCar`}>
+              <ManageCarOrder></ManageCarOrder>
             </AdminRoute>
           </Switch>
         </div>
